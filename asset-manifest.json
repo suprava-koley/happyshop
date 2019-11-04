@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/happyshop/static/css/main.5facb584.chunk.css",
+    "main.js": "/happyshop/static/js/main.29814bf4.chunk.js",
+    "main.js.map": "/happyshop/static/js/main.29814bf4.chunk.js.map",
+    "runtime-main.js": "/happyshop/static/js/runtime-main.1c0dc448.js",
+    "runtime-main.js.map": "/happyshop/static/js/runtime-main.1c0dc448.js.map",
+    "static/css/2.9d6dfeae.chunk.css": "/happyshop/static/css/2.9d6dfeae.chunk.css",
+    "static/js/2.cbf32cde.chunk.js": "/happyshop/static/js/2.cbf32cde.chunk.js",
+    "static/js/2.cbf32cde.chunk.js.map": "/happyshop/static/js/2.cbf32cde.chunk.js.map",
+    "index.html": "/happyshop/index.html",
+    "precache-manifest.adceccc36a6223094acb53a913e843ad.js": "/happyshop/precache-manifest.adceccc36a6223094acb53a913e843ad.js",
+    "service-worker.js": "/happyshop/service-worker.js",
+    "static/css/2.9d6dfeae.chunk.css.map": "/happyshop/static/css/2.9d6dfeae.chunk.css.map",
+    "static/css/main.5facb584.chunk.css.map": "/happyshop/static/css/main.5facb584.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c0dc448.js",
+    "static/css/2.9d6dfeae.chunk.css",
+    "static/js/2.cbf32cde.chunk.js",
+    "static/css/main.5facb584.chunk.css",
+    "static/js/main.29814bf4.chunk.js"
+  ]
+}
