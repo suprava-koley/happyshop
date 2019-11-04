@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+            function func()
+            {
+                var p1=document.getElementById("pass1");
+                var p2=document.getElementById("pass2");
+                var u1=document.getElementById("uname");
+                if(u1.value=="")
+                {
+                    //alert("username can't be empty")
+                    u1.style.border="solid 3px red";
+                    document.getElementById("lbluname").style.visibility="visible";
+                }
+                else{
+                    if(p1.value!=p2.value)
+                    {
+                        alert("password doesn't match")
+                    }
+                    else{
+                        alert("ok")
+                    }
+                }
+            }
+    </script>
+</head>
+<body>
+    
+    <form onsubmit="func()">
+        <input id="uname" placeholder="username"
+        type="text"/>
+        <label id="lbluname" style="color: brown; visibility:hidden">invalid</label>
+        <br><br>
+        <input id="pass1" placeholder="password"
+        type="password"/>
+        <input id="pass2" placeholder="re write password"
+        type="password"/>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
